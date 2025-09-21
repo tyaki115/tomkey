@@ -18,7 +18,7 @@
 
         MOUSE {
             bindings = <
-&kp TAB         &kt Q         &kp W         &kp E           &kp R                       &kp RA(LEFT_ARROW)  &kp LS(LG(LEFT_ARROW))  &mkp MB3  &kp LS(LG(RIGHT_ARROW))  &trans
+&kp TAB         &kp Q         &kp W         &kp E           &kp R                       &kp RA(LEFT_ARROW)  &kp LS(LG(LEFT_ARROW))  &mkp MB3  &kp LS(LG(RIGHT_ARROW))  &trans
 &mo 1           &kp A         &kp S         &kp D           &kp F   &kp G       &trans  &kp LA(LEFT_ARROW)  &mkp MB1                &mkp MB2  &mo 2                    &trans
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C           &kp V   &kp B       &trans  &kp TAB             &trans                  &trans    &trans                   &mo 1
 &kp LCTRL       &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans  &trans      &trans  &kp LEFT_ALT                                                                   &mo 1
