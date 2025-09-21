@@ -18,10 +18,10 @@
 
         MOUSE {
             bindings = <
-&trans     &trans        &trans            &trans          &trans                      &trans  &trans    &trans    &trans    &trans
-&trans     &trans        &trans            &trans          &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans     &trans        &trans            &trans          &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans  &trans      &trans  &mo 3                                 &trans
+&trans     &trans        &trans            &trans          &trans                      &trans  &trans    &mkp MB3  &trans  &trans
+&trans     &trans        &trans            &trans          &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mo 2   &trans
+&trans     &trans        &trans            &trans          &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans  &trans      &trans  &mo 3                               &trans
             >;
         };
 
