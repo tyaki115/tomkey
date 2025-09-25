@@ -9,10 +9,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp L         &kp U         &kp COMMA       &kp PERIOD                                   &kp F            &kp W  &kp R  &kp Y  &kp P
-&lt 1 E           &kp I         &kp A         &kp O           &kp MINUS   &kp CAPSLOCK      &kp ESCAPE     &kp K            &kp T  &kp N  &kp S  &lt 2 H
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V           &kp SPACE   &kp TAB           &kp BACKSPACE  &kp G            &kp D  &kp M  &kp J  &lt 1 B
-&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 4 TAB   &kp SPACE         &kp ENTER      &lt 3 BACKSPACE                       &mo 1
+&kp Q             &kp L         &kp U         &kp COMMA  &kp PERIOD                                   &kp F            &kp W  &kp R  &kp Y  &kp P
+&lt 1 E           &kp I         &kp A         &kp O      &kp MINUS   &kp CAPSLOCK      &kp ESCAPE     &kp K            &kp T  &kp N  &kp S  &lt 2 H
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp SPACE   &kp TAB           &kp BACKSPACE  &kp G            &kp D  &kp M  &kp J  &lt 1 B
+&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT  &mo 5      &lt 4 TAB   &kp SPACE         &kp ENTER      &lt 3 BACKSPACE                       &mo 1
             >;
         };
 
@@ -20,16 +20,16 @@
             bindings = <
 &kp TAB         &kp Q         &kp W         &kp E           &kp R                       &kp RC(LEFT_ARROW)  &kp LS(LG(LEFT_ARROW))  &mkp MB3  &kp LS(LG(RIGHT_ARROW))  &trans
 &mo 1           &kp A         &kp S         &kp D           &kp F   &kp G       &trans  &kp LA(LEFT_ARROW)  &mkp MB1                &mkp MB2  &mo 2                    &trans
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C           &kp V   &kp B       &trans  &kp TAB             &trans                  &trans    &trans                   &mo 1
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C           &kp V   &kp B       &trans  &kp TAB             &mkp MB1                &mkp MB2  &trans                   &mo 1
 &kp LCTRL       &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans  &trans      &trans  &kp LEFT_ALT                                                                   &mo 1
             >;
         };
 
         SCROLL {
             bindings = <
-&trans          &trans  &trans  &trans  &trans                      &trans        &trans          &kp UP_ARROW    &trans           &trans
+&trans          &trans  &trans  &trans  &trans                      &trans        &kp HOME        &kp UP_ARROW    &kp END          &trans
 &trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans  &kp TAB       &trans          &trans          &trans           &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans  &kp TAB       &kp PAGE_UP     &trans          &kp PAGE_DOWN    &trans
 &trans          &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT_ALT                                                   &trans
             >;
         };
@@ -54,10 +54,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans     &trans     &trans        &trans     &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans     &trans     &trans        &trans     &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp LC(Z)  &kp LC(X)  &kp LC(CAPS)  &kp LC(V)  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans     &trans     &trans        &trans     &trans  &trans      &trans   &trans                          &kp F12
             >;
         };
 
